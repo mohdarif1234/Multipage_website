@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    transition: 1s;
+  }
+  
+  body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+  }
+
+  /*logo*/
+  img{
+    width: 150px;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li{
+    list-style: none;
+    font-weight: 600;
+    margin-right: 50px;
+  }
+
+ .home{
+    font-weight: 700;
+    color: #20bc7e;
+ }
+
+ a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+  }
+
+  main{
+    height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+  }
+
+  form h1{
+    text-align: center;
+  }
+
+  form div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  form div input{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+
+  form div textarea {
+    resize: none;
+    border: transparent;
+    border-radius: 10px;
+    height: 100px;
+    padding: 5px 10px;
+  }
+
+  form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
